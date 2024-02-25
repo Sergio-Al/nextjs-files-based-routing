@@ -5,7 +5,7 @@ function BlogPostsPage() {
   const router = useRouter();
 
   console.log(router.pathname);
-  
+
   // as the slug is an array, the query will be an object with an array of slugs
   // eg. /blog/first-post/second-post => { slug: ['first-post', 'second-post'] }
   console.log(router.query);
